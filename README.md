@@ -1,6 +1,6 @@
 # Playwright UI Automation Framework
 
-Foundation-only Playwright Test + TypeScript project. Locators, Page Objects, environment URL, and feature tests are not included yet.
+Playwright Test + TypeScript project. The ODYX-502 login cases are on the feature branch `feature/ODYX-502-login-to-odyx-platform`.
 
 Those pieces are added later from:
 
@@ -61,4 +61,4 @@ npx playwright test
 npx playwright show-report
 ```
 
-Feature tests are not present in this foundation. Discovery is expected to list 0 tests until the Test Case Automation Artifact is integrated.
+`tests/login.spec.ts` covers the six ODYX-502 login cases. Set `ODYX_BASE_URL` to the environment URL before running them.
